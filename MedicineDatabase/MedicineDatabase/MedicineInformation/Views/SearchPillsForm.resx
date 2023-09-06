@@ -1,0 +1,816 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="topTableLayout.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="searchLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="searchLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="searchLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="searchLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="searchLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>668, 61</value>
+  </data>
+  <data name="searchLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchLabel.Text" xml:space="preserve">
+    <value>Medicine pills database</value>
+  </data>
+  <data name="searchLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;searchLabel.Name" xml:space="preserve">
+    <value>searchLabel</value>
+  </data>
+  <data name="&gt;&gt;searchLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchLabel.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;searchLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchTextLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchTextLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="searchTextLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="searchTextLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 105</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="searchTextLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 3, 3, 3</value>
+  </data>
+  <data name="searchTextLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 45</value>
+  </data>
+  <data name="searchTextLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="searchTextLabel.Text" xml:space="preserve">
+    <value>Search:</value>
+  </data>
+  <data name="searchTextLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="&gt;&gt;searchTextLabel.Name" xml:space="preserve">
+    <value>searchTextLabel</value>
+  </data>
+  <data name="&gt;&gt;searchTextLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchTextLabel.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;searchTextLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="searchTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="searchTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="searchTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="searchTextBox.HelperText" xml:space="preserve">
+    <value>Zadajte text a vyberte filter, podľa ktor=eho si prajete vyhľadať lieky v databázi.</value>
+  </data>
+  <data name="searchTextBox.Hint" xml:space="preserve">
+    <value>Write down text you want to search...</value>
+  </data>
+  <data name="searchTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 156</value>
+  </data>
+  <data name="searchTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 3, 50, 3</value>
+  </data>
+  <data name="searchTextBox.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="searchTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="searchTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 48</value>
+  </data>
+  <data name="searchTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.Name" xml:space="preserve">
+    <value>searchTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="filterLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="filterLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="filterLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="filterLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 105</value>
+  </data>
+  <data name="filterLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="filterLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 45</value>
+  </data>
+  <data name="filterLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="filterLabel.Text" xml:space="preserve">
+    <value>Filter:</value>
+  </data>
+  <data name="filterLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="&gt;&gt;filterLabel.Name" xml:space="preserve">
+    <value>filterLabel</value>
+  </data>
+  <data name="&gt;&gt;filterLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;filterLabel.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;filterLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="filterComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="filterComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="filterComboBox.Hint" xml:space="preserve">
+    <value>Filter by...</value>
+  </data>
+  <data name="filterComboBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="filterComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="filterComboBox.Items" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="filterComboBox.Items1" xml:space="preserve">
+    <value>Indications</value>
+  </data>
+  <data name="filterComboBox.Items2" xml:space="preserve">
+    <value>Contraindications</value>
+  </data>
+  <data name="filterComboBox.Items3" xml:space="preserve">
+    <value>Composition</value>
+  </data>
+  <data name="filterComboBox.Items4" xml:space="preserve">
+    <value>Side Effects</value>
+  </data>
+  <data name="filterComboBox.Items5" xml:space="preserve">
+    <value>Interactions</value>
+  </data>
+  <data name="filterComboBox.Items6" xml:space="preserve">
+    <value>Medical Substances</value>
+  </data>
+  <data name="filterComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 156</value>
+  </data>
+  <data name="filterComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 20, 3</value>
+  </data>
+  <data name="filterComboBox.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="filterComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="filterComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;filterComboBox.Name" xml:space="preserve">
+    <value>filterComboBox</value>
+  </data>
+  <data name="&gt;&gt;filterComboBox.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;filterComboBox.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;filterComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="searchPillsButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="searchPillsButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="searchPillsButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="searchPillsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 157</value>
+  </data>
+  <data name="searchPillsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 4, 20, 8</value>
+  </data>
+  <data name="searchPillsButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>160, 45</value>
+  </data>
+  <data name="searchPillsButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>86, 45</value>
+  </data>
+  <data name="searchPillsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 45</value>
+  </data>
+  <data name="searchPillsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="searchPillsButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;searchPillsButton.Name" xml:space="preserve">
+    <value>searchPillsButton</value>
+  </data>
+  <data name="&gt;&gt;searchPillsButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;searchPillsButton.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;searchPillsButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="searchPillsHelpButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="searchPillsHelpButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="searchPillsHelpButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="searchPillsHelpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 8</value>
+  </data>
+  <data name="searchPillsHelpButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 8, 20, 8</value>
+  </data>
+  <data name="searchPillsHelpButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>160, 45</value>
+  </data>
+  <data name="searchPillsHelpButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>86, 45</value>
+  </data>
+  <data name="searchPillsHelpButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 45</value>
+  </data>
+  <data name="searchPillsHelpButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="searchPillsHelpButton.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;searchPillsHelpButton.Name" xml:space="preserve">
+    <value>searchPillsHelpButton</value>
+  </data>
+  <data name="&gt;&gt;searchPillsHelpButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;searchPillsHelpButton.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;searchPillsHelpButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="healthInformationsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="healthInformationsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="healthInformationsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="healthInformationsLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="healthInformationsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 61</value>
+  </data>
+  <data name="healthInformationsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="healthInformationsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>671, 41</value>
+  </data>
+  <data name="healthInformationsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="healthInformationsLabel.Text" xml:space="preserve">
+    <value>Before searching, please enter your health informations here...</value>
+  </data>
+  <data name="healthInformationsLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;healthInformationsLabel.Name" xml:space="preserve">
+    <value>healthInformationsLabel</value>
+  </data>
+  <data name="&gt;&gt;healthInformationsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;healthInformationsLabel.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;healthInformationsLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="healthInfoButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="healthInfoButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="healthInfoButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="healthInfoButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="healthInfoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 5</value>
+  </data>
+  <data name="healthInfoButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 8, 5, 8</value>
+  </data>
+  <data name="healthInfoButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>160, 29</value>
+  </data>
+  <data name="healthInfoButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>112, 29</value>
+  </data>
+  <data name="healthInfoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 29</value>
+  </data>
+  <data name="healthInfoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="healthInfoButton.Text" xml:space="preserve">
+    <value>Health info</value>
+  </data>
+  <data name="&gt;&gt;healthInfoButton.Name" xml:space="preserve">
+    <value>healthInfoButton</value>
+  </data>
+  <data name="&gt;&gt;healthInfoButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;healthInfoButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;healthInfoButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 61</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="panel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 5, 5, 5</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 41</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="topTableLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="topTableLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="topTableLayout.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="topTableLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 206</value>
+  </data>
+  <data name="topTableLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;topTableLayout.Name" xml:space="preserve">
+    <value>topTableLayout</value>
+  </data>
+  <data name="&gt;&gt;topTableLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topTableLayout.Parent" xml:space="preserve">
+    <value>topPanel</value>
+  </data>
+  <data name="&gt;&gt;topTableLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="topTableLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="searchLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="searchTextLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchTextBox" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="filterLabel" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="filterComboBox" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchPillsButton" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="searchPillsHelpButton" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="healthInformationsLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="panel1" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,55,Percent,30,Percent,15" /&gt;&lt;Rows Styles="Percent,30,Percent,20,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="topPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="topPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 64</value>
+  </data>
+  <data name="topPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 206</value>
+  </data>
+  <data name="topPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;topPanel.Name" xml:space="preserve">
+    <value>topPanel</value>
+  </data>
+  <data name="&gt;&gt;topPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;topPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="badSearchPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="badSearchPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="badSearchPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="badSearchLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="badSearchLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="badSearchLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="badSearchLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 194</value>
+  </data>
+  <data name="badSearchLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="badSearchLabel.Text" xml:space="preserve">
+    <value>The search field is empty.
+
+Please complete the search.</value>
+  </data>
+  <data name="&gt;&gt;badSearchLabel.Name" xml:space="preserve">
+    <value>badSearchLabel</value>
+  </data>
+  <data name="&gt;&gt;badSearchLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badSearchLabel.Parent" xml:space="preserve">
+    <value>badSearchPanel</value>
+  </data>
+  <data name="&gt;&gt;badSearchLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="closeButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="closeButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="closeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="closeButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="closeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 3</value>
+  </data>
+  <data name="closeButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="closeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 47</value>
+  </data>
+  <data name="closeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="closeButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Name" xml:space="preserve">
+    <value>closeButton</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Parent" xml:space="preserve">
+    <value>badSearchButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;closeButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="badSearchButtonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="badSearchButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 194</value>
+  </data>
+  <data name="badSearchButtonPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="badSearchButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 53</value>
+  </data>
+  <data name="badSearchButtonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;badSearchButtonPanel.Name" xml:space="preserve">
+    <value>badSearchButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;badSearchButtonPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badSearchButtonPanel.Parent" xml:space="preserve">
+    <value>badSearchPanel</value>
+  </data>
+  <data name="&gt;&gt;badSearchButtonPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="badSearchPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 6</value>
+  </data>
+  <data name="badSearchPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="badSearchPanel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>316, 249</value>
+  </data>
+  <data name="badSearchPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 249</value>
+  </data>
+  <data name="badSearchPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="badSearchPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;badSearchPanel.Name" xml:space="preserve">
+    <value>badSearchPanel</value>
+  </data>
+  <data name="&gt;&gt;badSearchPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badSearchPanel.Parent" xml:space="preserve">
+    <value>medicineListPanel</value>
+  </data>
+  <data name="&gt;&gt;badSearchPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="noSearchResultsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="noSearchResultsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 20</value>
+  </data>
+  <data name="noSearchResultsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="noSearchResultsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 29</value>
+  </data>
+  <data name="noSearchResultsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="noSearchResultsLabel.Text" xml:space="preserve">
+    <value>No results yet. Please enter text to search..</value>
+  </data>
+  <data name="&gt;&gt;noSearchResultsLabel.Name" xml:space="preserve">
+    <value>noSearchResultsLabel</value>
+  </data>
+  <data name="&gt;&gt;noSearchResultsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;noSearchResultsLabel.Parent" xml:space="preserve">
+    <value>medicineListPanel</value>
+  </data>
+  <data name="&gt;&gt;noSearchResultsLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pillsLayoutPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillsLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillsLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 20</value>
+  </data>
+  <data name="pillsLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 450</value>
+  </data>
+  <data name="pillsLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pillsLayoutPanel.Name" xml:space="preserve">
+    <value>pillsLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillsLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillsLayoutPanel.Parent" xml:space="preserve">
+    <value>medicineListPanel</value>
+  </data>
+  <data name="&gt;&gt;pillsLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="medicineListPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="medicineListPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 270</value>
+  </data>
+  <data name="medicineListPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 5, 10</value>
+  </data>
+  <data name="medicineListPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 480</value>
+  </data>
+  <data name="medicineListPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;medicineListPanel.Name" xml:space="preserve">
+    <value>medicineListPanel</value>
+  </data>
+  <data name="&gt;&gt;medicineListPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;medicineListPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;medicineListPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="loadMedicineWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="pillListItemToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>216, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>14, 29</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>802, 753</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 64, 5, 3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SearchPillsForm</value>
+  </data>
+  <data name="&gt;&gt;loadMedicineWorker.Name" xml:space="preserve">
+    <value>loadMedicineWorker</value>
+  </data>
+  <data name="&gt;&gt;loadMedicineWorker.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;pillListItemToolTip.Name" xml:space="preserve">
+    <value>pillListItemToolTip</value>
+  </data>
+  <data name="&gt;&gt;pillListItemToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SearchPillsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

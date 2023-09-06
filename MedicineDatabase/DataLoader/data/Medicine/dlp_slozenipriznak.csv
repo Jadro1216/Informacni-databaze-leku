@@ -1,0 +1,15 @@
+S;VYZNAM
+A;AD ... DOPLNĚNO DO: 
+C;Pomocná látka, která odpovídá jiné pomocné látce 
+D;Adjuvant
+O;Účinná látka, která odpovídá jiné účinné látce
+R;Rozpouštědlo
+S;SUBTOTAL
+T;TOTAL 
+X;"1) pomocná látka, 
+2) oddělovací řádek, pokud není uveden název látky"
+Z;"pomocný údaj; 
+1) pro léčivou látku znamená, že následuje léčivá látka odpovídající látce uvedené na řádku před corresponding to:, 
+2) pro pomocnou látku znamená, že následuje pomocná látka (viz označení C) odpovídající pomocné látce uvedené na řádku před corresponding to:,
+3) OR v názvu látky znamená, že v léčivém přípravku je buď látka uvedená nad nebo pod řádkem s označením OR"
+;Léčivá látka (S není vyplněno)

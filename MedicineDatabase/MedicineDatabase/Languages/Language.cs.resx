@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DayFriday" xml:space="preserve">
+    <value>Pátek: </value>
+  </data>
+  <data name="DayFridayShort" xml:space="preserve">
+    <value>PÁT:</value>
+  </data>
+  <data name="DayHoliday" xml:space="preserve">
+    <value>Svátek: </value>
+  </data>
+  <data name="DayHolidayShort" xml:space="preserve">
+    <value>SVÁ:</value>
+  </data>
+  <data name="DayMonday" xml:space="preserve">
+    <value>Pondělí: </value>
+  </data>
+  <data name="DayMondayShort" xml:space="preserve">
+    <value>PON:</value>
+  </data>
+  <data name="DaySaturday" xml:space="preserve">
+    <value>Sobota: </value>
+  </data>
+  <data name="DaySaturdayShort" xml:space="preserve">
+    <value>SOB:</value>
+  </data>
+  <data name="DaySunday" xml:space="preserve">
+    <value>Neděle: </value>
+  </data>
+  <data name="DaySundayShort" xml:space="preserve">
+    <value>NED:</value>
+  </data>
+  <data name="DayThursday" xml:space="preserve">
+    <value>Čtvrtek: </value>
+  </data>
+  <data name="DayThursdayShort" xml:space="preserve">
+    <value>ČTV:</value>
+  </data>
+  <data name="DayTuesday" xml:space="preserve">
+    <value>Úterý: </value>
+  </data>
+  <data name="DayTuesdayShort" xml:space="preserve">
+    <value>ÚTE:</value>
+  </data>
+  <data name="DayWednesday" xml:space="preserve">
+    <value>Středa: </value>
+  </data>
+  <data name="DayWednesdayShort" xml:space="preserve">
+    <value>STŘ:</value>
+  </data>
+  <data name="DistanceText" xml:space="preserve">
+    <value>Vzdálenost: </value>
+  </data>
+  <data name="FilterComposition" xml:space="preserve">
+    <value>Složení</value>
+  </data>
+  <data name="FilterContraindications" xml:space="preserve">
+    <value>Kontraindikace</value>
+  </data>
+  <data name="FilterIndications" xml:space="preserve">
+    <value>Indikace</value>
+  </data>
+  <data name="FilterInteractions" xml:space="preserve">
+    <value>Interakce</value>
+  </data>
+  <data name="FilterName" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="FilterSideEffect" xml:space="preserve">
+    <value>Nežádoucí účinky</value>
+  </data>
+  <data name="FilterSubstances" xml:space="preserve">
+    <value>Léčivá látka</value>
+  </data>
+  <data name="MedicineHelpText" xml:space="preserve">
+    <value>Databáze léků:
+
+
+Okno Hledej:
+Před vyhledáním je možné si zapsat zdravotní problémy, kterými už člověk trpí, aby se to bralo v úvahu při vyhledávání. Pokud zadáte údaje o zdraví, tak a nějaký z nalezených léků by byl problematický a mohl by vám způsobit zdravotní komplikace, tak se tento lék barevně odliší (červeně).
+
+V tomto okně jinak máte možnost vyhledávání léků. Hledání je možné podle několika filtrů, které si umíte zvolit.
+Bez vyplněného textu vás aplikace upozorní, že musíte text vyplnit.
+
+Po vyhledání vám aplikace zobrazí nižší léky, které splňují podmínky vyhledávání.
+Tento seznam se skládá z léků, na kterých je zobrazen jejich název, SÚKL kód a kód ATC skupiny.
+Po kliknutí na kterýkoli z léků vás to přesměruje na stránku detailu o daném léku.
+
+
+Okno Detail:
+V tomto okně se vám zobrazí informace o lécích jako název, léčivá síla, balení, vydání léku a mnoho dalších.
+Pokud některé údaje nejsou vyplněny, aplikace je nemá k dispozici.
+Nachází se zde také tlačítko pro přidání léku do seznamu, který si následně lze uložit a vytisknout.
+
+V pravé části se nachází seznam 'Podobné léčivé přípravky'. Tento seznam obsahuje podobné léky k léku, který máte zobrazen. Většinou jsou to stejné léky a liší se například jen v balení.
+Po kliknutí na kterýkoli z těchto léků v seznamu se informace na stránce aktualizují pro vybraný lék.
+
+Níže na stránce naleznete doplňující informace o léku z dokumentu. Pokud jsou tyto informace prázdné, k danému léku aplikace nemá přidělený dokument.
+Název tohoto dokumentu naleznete v informacích výše.
+
+
+V horní části se nacházejí dvě tlačítka.
+Tlačítko 'Pomoc' vás přesměruje na tuto stránku.
+Tlačítko 'Zpět' vás vrátí na stránku vyhledávání.</value>
+  </data>
+  <data name="MyHealthHelpText" xml:space="preserve">
+    <value>Mé zdraví.
+
+V tomto okně naleznete informace o svém zdraví, které jste si vyplnili a léky, které jste si přidali do seznamu, který si například můžete vytisknout a jít s ním do lékárny. Můžete upravovat počet nebo odstranit léky ze seznamu.
+
+Informace, které jste vyplnili ohledně vašeho zdraví, se zohledňují při vyhledávání léků. Ty které by vám mohly způsobit problémy se barevně odliší. Informace jsou však pouze informační a před užitím léků se poraďte s odborníkem.
+
+Ve spodní části se nacházejí tlačítka 'POMOC' a 'ULOŽIT A VYTISKNOUT'. Tlačítko 'POMOC' vás přesměruje na tuto stránku.
+Druhé tlačítko vám umožní tento seznam uložit/vytisknout do počítače jako soubor a ten si můžete následně vytisknout.</value>
+  </data>
+  <data name="MyLocationTooltip" xml:space="preserve">
+    <value>Moje poloha:
+</value>
+  </data>
+  <data name="noSearchPillsResultText" xml:space="preserve">
+    <value>Žádné výsledky nebyly nalezeny. Prosím zkuste to znovu.</value>
+  </data>
+  <data name="PharmaciesHelpText" xml:space="preserve">
+    <value>Zobrazení nejbližších lékáren v okolí
+
+
+Okno Poloha:
+V tomto okně je třeba zadat přibližnou adresu kde se nacházíte. Ulice, číslo, město a poštovní směrovací číslo.
+Netřeba zadat všechno, ale musí být alespoň něco vyplněno.
+Následně je potřeba tuto polohu potvrdit tlačítkem. Na mapě se zobrazí marker vaší polohy. Po kliknutí na potvrzení polohy se zpřístupní tlačítko pro zobrazení lékáren.
+Toto tlačítko vás přesměruje na okno Lékárny, kde se vám zobrazí lékárny v okolí.
+
+
+Okno Lékárny:
+V tomto okně se vám zobrazí několik nejbližších lékáren ve vašem okolí.
+
+Na mapě se vám zobrazí marker polohy, kde se nachází daná lékárna. Také se na mapě zobrazuje i váš marker.,
+
+V pravém dolním rohu je seznam lékáren seřazen podle vzdálenosti. Lékárny umíte měnit po kliknutí v seznamu na danou lékárnu. Po kliknutí na
+kteroukoliv lékárna se vám na mapě zobrazí poloha této lékárny a v pravo nahoře informace.
+
+V pravém horním rohu se vám zobrazují informace o konkrétní lékárně. Při načítání se vám zobrazují informace první lékárny v seznamu.
+Naleznete zde informace jako Název lékárny, adresu, vzdálenost v metrech, kontaktní informace a jiné.
+
+V seznamu Web naleznete webové stránky lékárny. Pokud na ně kliknete tak se vám otevře prohlížeč s danou stránkou.
+Pokud se prohlížeč neotevře, stránka neexistuje. Buď je špatně napsána (překlepy) nebo opravdu neexistuje.
+
+Tlačítko 'POMOC' v pravém horním rohu vás přesměruje na tuto stránku.</value>
+  </data>
+  <data name="PillDetailExpirationTooltipText" xml:space="preserve">
+    <value>H - hodiny
+D - dny
+W - týdny
+M - měsíce</value>
+  </data>
+  <data name="PillListItem.SUKLCode" xml:space="preserve">
+    <value>SÚKL kód: </value>
+  </data>
+  <data name="ProblemPillTolltipText" xml:space="preserve">
+    <value>POZOR!
+
+Podle informací o vašem zdraví může být tento lék pro vás problémový a způsobit vám zdravotní potíže.</value>
+  </data>
+</root>

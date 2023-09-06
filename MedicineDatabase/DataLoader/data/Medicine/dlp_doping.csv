@@ -1,0 +1,15 @@
+DOPING;NAZEV
+M1;Manipulace s krví a krevními komponentami
+M3;Genový a buněčný doping
+OOO;Přípravky obsahující složku, která může být za určitých podmínek posuzována jako doping, viz aktuální Seznam zakázaných látek a metod Světové antidopingové agentury.
+P1;Beta-blokátory (zakázané v určitých sportech).
+S1;Anabolické látky (nelze pro léčbu sportovců použít vůbec).
+S2;Peptidové hormony, růstové faktory, příbuzné látky a mimetika (nelze pro léčbu sportovců použít vůbec).
+S3;Beta-2 agonisté (nelze pro léčbu sportovců použít vůbec).
+S4;Hormonové a metabolické modulátory (nelze pro léčbu sportovců použít vůbec).
+S5;Diuretika a maskovací látky (nelze pro léčbu sportovců použít vůbec).
+S5D;Diuretika a maskovací látky (nelze pro léčbu sportovců použít vůbec).
+S6;Stimulancia (zakázané pouze při soutěži). 
+S7;Narkotika (zakázané pouze při soutěži).
+S8;Kanabinoidy (zakázané pouze při soutěži).
+S9;Glukokortikoidy (zakázané pouze při soutěži).

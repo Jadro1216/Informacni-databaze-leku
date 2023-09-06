@@ -1,0 +1,44 @@
+Datová sada;Pořadí sloupce;Název sloupce;Typ položky;Význam
+processedData;1;KOD_SUKL;NVARCHAR(7);Kód léčivého přípravku (dále LP) přidělený SÚKL variantě LP v rámci rozhodnutí o registraci LP, přidělený neregistrovanému LP zařazenému do specifického léčebného programu (dále SLP) nebo přidělený potravině pro zvláštní lékařské účely (dále PZLÚ)
+processedData;2;H;NVARCHAR(1);Označení LP, který podléhá povinnému hlášení (povinnost předkládat Ústavu před propuštěním na trh vzorky každé šarže přípravku k přezkoušení, § 32 odst. 4 písm.a) zákona o léčivech
+processedData;3;NAZEV;NVARCHAR(70);Název LP nebo PZLÚ
+processedData;4;SILA;NVARCHAR(24);Síla LP, kterou se rozumí obsah léčivých látek vyjádřený kvantitativně vzhledem k jednotce dávky, objemu nebo hmotnosti podle lékové formy
+processedData;5;FORMA;NVARCHAR(255);Léková forma 
+processedData;6;BALENI;NVARCHAR(22);Velikost balení
+processedData;7;CESTA;NVARCHAR(255);Cesta podání
+processedData;8;DOPLNEK;NVARCHAR(75);Doplněk názvu LP, který jednoznačně určuje variantu LP, sestávající z integrace cesty podání LP, jeho lékové formy, velikosti balení a síly. Jedná se o starší položku číselníku, dále upřesněnou v položkách CESTA, FORMA, BALENÍ a SÍLA
+processedData;9;OBAL;NVARCHAR(255);Vnitřní obal LP, kterým se rozumí taková forma obalu, který je v bezprostředním kontaktu s LP
+processedData;10;DRZ;NVARCHAR(200);Držitel rozhodnutí o registraci
+processedData;11;ZEMDRZ;NVARCHAR(100);Země sídla držitele rozhodnutí o registraci
+processedData;12;AKT_DRZ;NVARCHAR(200);Aktuální držitel reg.rozhodnutí. Uvádí se jen u registrací B
+processedData;13;AKT_ZEM;NVARCHAR(100);Země aktuálního držitele rozhodnutí o reg.
+processedData;14;REG;NVARCHAR(300);Stav registrace
+processedData;15;V_PLATDO;NVARCHAR(8), formát 'DDMMRR';Platnost registrace do, není-li stanovena neomezená platnost podle § 34 zákona o léčivech. Uvádí se jen u registrací B, C, Y, F
+processedData;16;NEOMEZ;NVARCHAR(1);V poli vyplněno (X) v případě neomezené  platnosti registrace (podle § 34 zákona o léčivech)
+processedData;17;UVADENIDO;NVARCHAR(8), formát 'DDMMRR';Uvádění na trh do, není-li stanovena neomezená platnost podle § 34 zákona o léčivech. Uvádí se jen u registrací B, C, Y
+processedData;18;IS_;NVARCHAR(58);Indikační skupina
+processedData;19;ATC_WHO;NVARCHAR(7);Anatomicko-terapeuticko-chemická skupina (WHO Index)
+processedData;20;ATC_NAZEV;VARCHAR2(200);Český název ATC skupiny
+processedData;21;RC;NVARCHAR(16);Registrační číslo
+processedData;22;SDOV;NVARCHAR(11);"Identifikační číslo souběžného dovozu, které se váže na odkazovaný referenční přípravek dle registračního čísla; zpravidla ve tvaru PI/xxx/yyyy"
+processedData;23;SDOV_DOD;NVARCHAR(4);Zkratka dovozce u souběžného dovozu
+processedData;24;SDOV_ZEM;NVARCHAR(3);Země dovozce u souběžného dovozu
+processedData;25;REG_PROC;NVARCHAR(100);Registrační procedura
+processedData;26;DDDAMNT_WHO;NVARCHAR(10);množství léčivé látky v definované denní dávce (DDD)
+processedData;27;DDDUN_WHO;NVARCHAR(4);jednotka množství léčivé látky v DDD
+processedData;28;DDDP_WHO;NVARCHAR(18);Počet DDD v balení (na 4 desetinná místa)
+processedData;29;ZDROJ_WHO;NVARCHAR(8);WHO Index
+processedData;30;LL;NVARCHAR(2000);Seznam léčivých látek, oddělený čárkami
+processedData;31;VYDEJ;NVARCHAR(300);Klasifikace typu výdeje léčivého přípravku 
+processedData;32;ZAV;NVARCHAR(4);Závislost - skupina omamných nebo psychotropních látek (návykové látky)
+processedData;33;DOPING;NVARCHAR(300);Doping
+processedData;34;NARVLA;NVARCHAR(2);Označení látky s anabolickým a jiným hormonálním účinkem podle nařízení vlády 454/2009 Sb.
+processedData;35;DODAVKY;NVARCHAR(2);Přípravek byl dodáván do lékáren a zdr. zařízení v posledních 6 měsících
+processedData;36;EAN;NVARCHAR(10);Pole je prázdné, údaje již nejsou k dispozici
+processedData;37;BRAILLOVO_PISMO;NVARCHAR(4);Braillovo písmo: schváleno (S), výjimka (V), nežádáno (mezera)
+processedData;38;EXP;NVARCHAR(5);Expirace
+processedData;39;EXP_T;NVARCHAR(5);Expirace typ: hodiny H, dny D, týdny W, měsíce M
+processedData;40;NAZEV_REG;NVARCHAR(255);Registrovaný název LP nebo PZLÚ
+processedData;41;MRP_CISLO;NVARCHAR(15);MRP Číslo
+processedData;42;PRAVNI_ZAKLAD_REGISTRACE;NVARCHAR(8);Právní základ registrace
+processedData;43;OCHRANNY_PRVEK;NVARCHAR(2);Ocharnný prvek, hodnota A  - lečivý přípravek musí mít ochranný prvek

@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DayFriday" xml:space="preserve">
+    <value>Friday: </value>
+  </data>
+  <data name="DayFridayShort" xml:space="preserve">
+    <value>FRI:</value>
+  </data>
+  <data name="DayHoliday" xml:space="preserve">
+    <value>Holiday: </value>
+  </data>
+  <data name="DayHolidayShort" xml:space="preserve">
+    <value>HOL:</value>
+  </data>
+  <data name="DayMonday" xml:space="preserve">
+    <value>Monday: </value>
+  </data>
+  <data name="DayMondayShort" xml:space="preserve">
+    <value>MON.</value>
+  </data>
+  <data name="DaySaturday" xml:space="preserve">
+    <value>Saturday: </value>
+  </data>
+  <data name="DaySaturdayShort" xml:space="preserve">
+    <value>SAT:</value>
+  </data>
+  <data name="DaySunday" xml:space="preserve">
+    <value>Sunday: </value>
+  </data>
+  <data name="DaySundayShort" xml:space="preserve">
+    <value>SUN:</value>
+  </data>
+  <data name="DayThursday" xml:space="preserve">
+    <value>Thursday: </value>
+  </data>
+  <data name="DayThursdayShort" xml:space="preserve">
+    <value>THU:</value>
+  </data>
+  <data name="DayTuesday" xml:space="preserve">
+    <value>Tuesday: </value>
+  </data>
+  <data name="DayTuesdayShort" xml:space="preserve">
+    <value>TUE:</value>
+  </data>
+  <data name="DayWednesday" xml:space="preserve">
+    <value>Wednesday: </value>
+  </data>
+  <data name="DayWednesdayShort" xml:space="preserve">
+    <value>WED:</value>
+  </data>
+  <data name="DistanceText" xml:space="preserve">
+    <value>Distance: </value>
+  </data>
+  <data name="FilterComposition" xml:space="preserve">
+    <value>Composition</value>
+  </data>
+  <data name="FilterContraindications" xml:space="preserve">
+    <value>Contraindications</value>
+  </data>
+  <data name="FilterIndications" xml:space="preserve">
+    <value>Indications</value>
+  </data>
+  <data name="FilterInteractions" xml:space="preserve">
+    <value>Interactions</value>
+  </data>
+  <data name="FilterName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FilterSideEffect" xml:space="preserve">
+    <value>Side Effects</value>
+  </data>
+  <data name="FilterSubstances" xml:space="preserve">
+    <value>Medical Substances</value>
+  </data>
+  <data name="MedicineHelpText" xml:space="preserve">
+    <value>Drug database:
+
+
+Search window:
+Before the search, it is possible to write down the health problems that the person already suffers from so that it is taken into account during the search. If you enter health data and one of the found medicines would be problematic and could cause you health complications, this medicine will be colored differently (in red).
+
+You can also search for medicines in this window. The search is possible according to several filters that you can choose.
+Without the text filled in, the application will warn you that you have to fill in the text.
+
+After the search, the application will show you the medicines below that meet the search conditions.
+This list consists of drugs, on which their name, SÚKL code and ATC group code are displayed.
+After clicking on any of the drugs, it will redirect you to the detail page of that drug.
+
+
+Detail window:
+In this window, you will see information about the medicine, such as the name, medicinal strength, packaging, release of the medicine and much more.
+If some data is not filled in, the application does not have it available.
+There is also a button for adding the drug to the list, which can then be saved and printed.
+
+In the right part there is a list of 'Similar medicinal preparations'. This list contains similar medicines to the medicine you are viewing. They are mostly the same medicines and differ, for example, only in the packaging.
+When you click on any of these drugs in the list, the information on the page is updated for the selected drug.
+
+Further down the page you will find additional information about the drug from the document. If this information is empty, the application does not have a document assigned to the drug.
+See the information above for the title of this document.
+
+
+There are two buttons in the upper part.
+The 'Help' button will redirect you to this page.
+The 'Back' button will return you to the search page.</value>
+  </data>
+  <data name="MyHealthHelpText" xml:space="preserve">
+    <value>My health.
+
+In this window, you will find information about your health that you have filled in and medications that you have added to the list, which you can, for example, print out and take with you to the pharmacy. You can edit the number or remove medicines from the list.
+
+The information you have filled in regarding your health is taken into account when searching for medicines. Those that could cause you problems will be colored differently. However, the information is for informational purposes only and you should consult a specialist before taking the medication.
+
+At the bottom there are the 'HELP' and 'SAVE AND PRINT' buttons. The 'HELP' button will redirect you to this page.
+The second button allows you to save/print this list to your computer as a file and then print it out.</value>
+  </data>
+  <data name="MyLocationTooltip" xml:space="preserve">
+    <value>My location: 
+</value>
+  </data>
+  <data name="noSearchPillsResultText" xml:space="preserve">
+    <value>No results found. Please try again.</value>
+  </data>
+  <data name="PharmaciesHelpText" xml:space="preserve">
+    <value>Displaying the nearest pharmacies in the area
+
+
+Window Location:
+In this window, you must enter the approximate address where you are located. Street, number, city and postal code number.
+It is not necessary to enter everything, but at least something must be filled in.
+Subsequently, it is necessary to confirm this position with the button. A marker of your location will appear on the map. After clicking to confirm the location, the button to display pharmacies will be available.
+This button will redirect you to the Pharmacies window, where you will see pharmacies in the vicinity.
+
+
+Pharmacy window:
+In this window, you will see several nearest pharmacies in your area.
+
+You will see a location marker on the map where the given pharmacy is located. Your marker is also displayed on the map.
+
+In the lower right corner there is a list of pharmacies sorted by distance. You can change pharmacies by clicking on the given pharmacy in the list. After clicking on
+any pharmacy, you will see the location of this pharmacy on the map and information in the top right.
+
+Information about a specific pharmacy is displayed in the upper right corner. When loading, you are shown the information of the first pharmacy in the list.
+Here you will find information such as name of the pharmacy, address, distance in meters, contact information and others.
+
+You can find pharmacy websites in the Web list. If you click on them, a browser with the given page will open.
+If the browser does not open, the page does not exist. Either it is written badly (typos) or it really doesn't exist.
+
+The 'HELP' button in the upper right corner will redirect you to this page.</value>
+  </data>
+  <data name="PillDetailExpirationTooltipText" xml:space="preserve">
+    <value>H - hours
+D - days
+W - weeks
+M - months</value>
+  </data>
+  <data name="PillListItem.SUKLCode" xml:space="preserve">
+    <value>SUKL code: </value>
+  </data>
+  <data name="ProblemPillTolltipText" xml:space="preserve">
+    <value>WARNING!
+
+According to your health information, this medicine may be problematic for you and cause you health problems.</value>
+  </data>
+</root>

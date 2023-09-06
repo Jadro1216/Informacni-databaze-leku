@@ -1,0 +1,373 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="simmilarPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="additionalDetailLayout.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDetailLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="detailFormMainLayout.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="simmilarListLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="simmilarLabel.Text" xml:space="preserve">
+    <value>Podobné léčivé přípravky:</value>
+  </data>
+  <data name="simmilarLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="substancesText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="overodeText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="compositionText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dosageText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="interactionsText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="warningsText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="applicabilityText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sideeffectsText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="indicationsText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="additionalDetailLabel.Text" xml:space="preserve">
+    <value>Doplňující informace:</value>
+  </data>
+  <data name="additionalDetailLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentIndicationsLabel.Text" xml:space="preserve">
+    <value>Indikace:</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentContraindicationsLabel.Text" xml:space="preserve">
+    <value>Kontraindikace:</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentSideEffectLabel.Text" xml:space="preserve">
+    <value>Nežádoucí účinky:</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentApplicabilityLabel.Text" xml:space="preserve">
+    <value>Použitelnost:</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentWarningsLabel.Text" xml:space="preserve">
+    <value>Varování:</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentInteractionsLabel.Text" xml:space="preserve">
+    <value>Interakce:</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentDosageLabel.Text" xml:space="preserve">
+    <value>Dávkování:</value>
+  </data>
+  <data name="pillDocumentDosageLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentCompositionLabel.Text" xml:space="preserve">
+    <value>Složení:</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentOverdoseLabel.Text" xml:space="preserve">
+    <value>Předávkování:</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentSubstancesLabel.Text" xml:space="preserve">
+    <value>Seznam léčivých látek:</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="contraindicationsText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillSuklText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillSklLabel.Text" xml:space="preserve">
+    <value>SÚKL kód:</value>
+  </data>
+  <data name="pillSklLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillMedicalSubstancesText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillExpirationLabel.Text" xml:space="preserve">
+    <value>Expirace:</value>
+  </data>
+  <data name="pillExpirationLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.Text" xml:space="preserve">
+    <value>Neomezená registrace:</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.Text" xml:space="preserve">
+    <value>Země držitela:</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillRegistrationHolderLabel.Text" xml:space="preserve">
+    <value>Držitel registraceň: </value>
+  </data>
+  <data name="pillRegistrationHolderLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillRegistrationNumberLabel.Text" xml:space="preserve">
+    <value>Registrační číslo:</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillATCNameLabel.Text" xml:space="preserve">
+    <value>ATC Název:</value>
+  </data>
+  <data name="pillATCNameLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillATCCodeLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDispensingLabel.Text" xml:space="preserve">
+    <value>Výdej:</value>
+  </data>
+  <data name="pillDispensingLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillCoverLabel.Text" xml:space="preserve">
+    <value>Obal:</value>
+  </data>
+  <data name="pillCoverLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillWayOfUseLabel.Text" xml:space="preserve">
+    <value>Cesta podání:</value>
+  </data>
+  <data name="pillWayOfUseLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillPackingLabel.Text" xml:space="preserve">
+    <value>Balení:</value>
+  </data>
+  <data name="pillPackingLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillFormLabel.Text" xml:space="preserve">
+    <value>Léčivá forma:</value>
+  </data>
+  <data name="pillFormLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillSupplementLabel.Text" xml:space="preserve">
+    <value>Doplnek:</value>
+  </data>
+  <data name="pillSupplementLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="goBackToSearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="goBackToSearchButton.Text" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="goBackToSearchButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDetailsHelpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 6</value>
+  </data>
+  <data name="pillDetailsHelpButton.Text" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="pillDetailsHelpButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillPowerLabel.Text" xml:space="preserve">
+    <value>Síla:</value>
+  </data>
+  <data name="pillPowerLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillNameLabel.Text" xml:space="preserve">
+    <value>Název léčivého přípravku</value>
+  </data>
+  <data name="pillNameLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillPowerText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillSupplementText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillFormText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillPackingText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillWayOfUseText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillCoverText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDispensingText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillATCCodeText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillAtcNameText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillRegistrationNumberText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillRegistrationHolderText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillRegistrationHolderCountryText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillUnlimitedRegistrationText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillExpirationText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillDocumentsLabel.Text" xml:space="preserve">
+    <value>Dokumenty:</value>
+  </data>
+  <data name="pillDocumentsLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillMedicalSubstancesLabel.Text" xml:space="preserve">
+    <value>Léčivé látky:</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="openPillDocumentButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillAddToListButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 35</value>
+  </data>
+  <data name="pillAddToListButton.Text" xml:space="preserve">
+    <value>Přidat do zoznamu</value>
+  </data>
+  <data name="pillAddToListButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pillsDetailWarningLabel.Text" xml:space="preserve">
+    <value>UPOZORNĚNÍ! Veškerá data a údaje jsou čistě informační. Před užitím se poraďte s odborníkem.</value>
+  </data>
+  <data name="pillsDetailWarningLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,2599 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="pillDetailTooltip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="detailFormMainLayout.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="simmilarListLayoutPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="simmilarListLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="simmilarListLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="simmilarListLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 424</value>
+  </data>
+  <data name="simmilarListLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;simmilarListLayoutPanel.Name" xml:space="preserve">
+    <value>simmilarListLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;simmilarListLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;simmilarListLayoutPanel.Parent" xml:space="preserve">
+    <value>simmilarPanel</value>
+  </data>
+  <data name="&gt;&gt;simmilarListLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="simmilarLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simmilarLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="simmilarLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="simmilarLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="simmilarLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 46</value>
+  </data>
+  <data name="simmilarLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="simmilarLabel.Text" xml:space="preserve">
+    <value>Simmilar medicine</value>
+  </data>
+  <data name="simmilarLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;simmilarLabel.Name" xml:space="preserve">
+    <value>simmilarLabel</value>
+  </data>
+  <data name="&gt;&gt;simmilarLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;simmilarLabel.Parent" xml:space="preserve">
+    <value>simmilarPanel</value>
+  </data>
+  <data name="&gt;&gt;simmilarLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="simmilarPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="simmilarPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 3</value>
+  </data>
+  <data name="simmilarPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 470</value>
+  </data>
+  <data name="simmilarPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;simmilarPanel.Name" xml:space="preserve">
+    <value>simmilarPanel</value>
+  </data>
+  <data name="&gt;&gt;simmilarPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;simmilarPanel.Parent" xml:space="preserve">
+    <value>detailFormMainLayout</value>
+  </data>
+  <data name="&gt;&gt;simmilarPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="additionalDetailLayout.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="substancesText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="substancesText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="substancesText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 475</value>
+  </data>
+  <data name="substancesText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="substancesText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="substancesText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="substancesText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 75</value>
+  </data>
+  <data name="substancesText.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;substancesText.Name" xml:space="preserve">
+    <value>substancesText</value>
+  </data>
+  <data name="&gt;&gt;substancesText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;substancesText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;substancesText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="overodeText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="overodeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="overodeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 475</value>
+  </data>
+  <data name="overodeText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="overodeText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="overodeText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="overodeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 75</value>
+  </data>
+  <data name="overodeText.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;overodeText.Name" xml:space="preserve">
+    <value>overodeText</value>
+  </data>
+  <data name="&gt;&gt;overodeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overodeText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;overodeText.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="compositionText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="compositionText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="compositionText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 372</value>
+  </data>
+  <data name="compositionText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="compositionText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="compositionText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="compositionText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 71</value>
+  </data>
+  <data name="compositionText.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;compositionText.Name" xml:space="preserve">
+    <value>compositionText</value>
+  </data>
+  <data name="&gt;&gt;compositionText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;compositionText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;compositionText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dosageText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dosageText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="dosageText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 372</value>
+  </data>
+  <data name="dosageText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="dosageText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dosageText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="dosageText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 71</value>
+  </data>
+  <data name="dosageText.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;dosageText.Name" xml:space="preserve">
+    <value>dosageText</value>
+  </data>
+  <data name="&gt;&gt;dosageText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dosageText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;dosageText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="interactionsText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="interactionsText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="interactionsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 269</value>
+  </data>
+  <data name="interactionsText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="interactionsText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="interactionsText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="interactionsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 71</value>
+  </data>
+  <data name="interactionsText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;interactionsText.Name" xml:space="preserve">
+    <value>interactionsText</value>
+  </data>
+  <data name="&gt;&gt;interactionsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;interactionsText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;interactionsText.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="warningsText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="warningsText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="warningsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 269</value>
+  </data>
+  <data name="warningsText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="warningsText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="warningsText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="warningsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 71</value>
+  </data>
+  <data name="warningsText.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;warningsText.Name" xml:space="preserve">
+    <value>warningsText</value>
+  </data>
+  <data name="&gt;&gt;warningsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;warningsText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;warningsText.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="applicabilityText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="applicabilityText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="applicabilityText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 166</value>
+  </data>
+  <data name="applicabilityText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="applicabilityText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="applicabilityText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="applicabilityText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 71</value>
+  </data>
+  <data name="applicabilityText.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;applicabilityText.Name" xml:space="preserve">
+    <value>applicabilityText</value>
+  </data>
+  <data name="&gt;&gt;applicabilityText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;applicabilityText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;applicabilityText.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="sideeffectsText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sideeffectsText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="sideeffectsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 166</value>
+  </data>
+  <data name="sideeffectsText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="sideeffectsText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sideeffectsText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="sideeffectsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 71</value>
+  </data>
+  <data name="sideeffectsText.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;sideeffectsText.Name" xml:space="preserve">
+    <value>sideeffectsText</value>
+  </data>
+  <data name="&gt;&gt;sideeffectsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sideeffectsText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;sideeffectsText.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="indicationsText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="indicationsText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="indicationsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 63</value>
+  </data>
+  <data name="indicationsText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="indicationsText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="indicationsText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="indicationsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 71</value>
+  </data>
+  <data name="indicationsText.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;indicationsText.Name" xml:space="preserve">
+    <value>indicationsText</value>
+  </data>
+  <data name="&gt;&gt;indicationsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;indicationsText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;indicationsText.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="additionalDetailLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="additionalDetailLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.200001pt, style=Bold</value>
+  </data>
+  <data name="additionalDetailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="additionalDetailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1100, 34</value>
+  </data>
+  <data name="additionalDetailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="additionalDetailLabel.Text" xml:space="preserve">
+    <value>Additional informations:</value>
+  </data>
+  <data name="additionalDetailLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;additionalDetailLabel.Name" xml:space="preserve">
+    <value>additionalDetailLabel</value>
+  </data>
+  <data name="&gt;&gt;additionalDetailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;additionalDetailLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;additionalDetailLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 37</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.Text" xml:space="preserve">
+    <value>Indications:</value>
+  </data>
+  <data name="pillDocumentIndicationsLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentIndicationsLabel.Name" xml:space="preserve">
+    <value>pillDocumentIndicationsLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentIndicationsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentIndicationsLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentIndicationsLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 37</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.Text" xml:space="preserve">
+    <value>Contraindications:</value>
+  </data>
+  <data name="pillDocumentContraindicationsLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentContraindicationsLabel.Name" xml:space="preserve">
+    <value>pillDocumentContraindicationsLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentContraindicationsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentContraindicationsLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentContraindicationsLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 140</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.Text" xml:space="preserve">
+    <value>Side effects:</value>
+  </data>
+  <data name="pillDocumentSideEffectLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentSideEffectLabel.Name" xml:space="preserve">
+    <value>pillDocumentSideEffectLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentSideEffectLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentSideEffectLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentSideEffectLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 140</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.Text" xml:space="preserve">
+    <value>Applicability:</value>
+  </data>
+  <data name="pillDocumentApplicabilityLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentApplicabilityLabel.Name" xml:space="preserve">
+    <value>pillDocumentApplicabilityLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentApplicabilityLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentApplicabilityLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentApplicabilityLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 243</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.Text" xml:space="preserve">
+    <value>Warnings:</value>
+  </data>
+  <data name="pillDocumentWarningsLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentWarningsLabel.Name" xml:space="preserve">
+    <value>pillDocumentWarningsLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentWarningsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentWarningsLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentWarningsLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 243</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.Text" xml:space="preserve">
+    <value>Interactions:</value>
+  </data>
+  <data name="pillDocumentInteractionsLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentInteractionsLabel.Name" xml:space="preserve">
+    <value>pillDocumentInteractionsLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentInteractionsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentInteractionsLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentInteractionsLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pillDocumentDosageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentDosageLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentDosageLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentDosageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 346</value>
+  </data>
+  <data name="pillDocumentDosageLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentDosageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentDosageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="pillDocumentDosageLabel.Text" xml:space="preserve">
+    <value>Dosage:</value>
+  </data>
+  <data name="pillDocumentDosageLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentDosageLabel.Name" xml:space="preserve">
+    <value>pillDocumentDosageLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentDosageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentDosageLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentDosageLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 346</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.Text" xml:space="preserve">
+    <value>Composition:</value>
+  </data>
+  <data name="pillDocumentCompositionLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentCompositionLabel.Name" xml:space="preserve">
+    <value>pillDocumentCompositionLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentCompositionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentCompositionLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentCompositionLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 449</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.Text" xml:space="preserve">
+    <value>Overdose:</value>
+  </data>
+  <data name="pillDocumentOverdoseLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentOverdoseLabel.Name" xml:space="preserve">
+    <value>pillDocumentOverdoseLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentOverdoseLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentOverdoseLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentOverdoseLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 449</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 20</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.Text" xml:space="preserve">
+    <value>List of medical substances:</value>
+  </data>
+  <data name="pillDocumentSubstancesLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentSubstancesLabel.Name" xml:space="preserve">
+    <value>pillDocumentSubstancesLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentSubstancesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentSubstancesLabel.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentSubstancesLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="contraindicationsText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="contraindicationsText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="contraindicationsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 63</value>
+  </data>
+  <data name="contraindicationsText.MaxLength" type="System.Int32, mscorlib">
+    <value>50000</value>
+  </data>
+  <data name="contraindicationsText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="contraindicationsText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="contraindicationsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>547, 71</value>
+  </data>
+  <data name="contraindicationsText.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;contraindicationsText.Name" xml:space="preserve">
+    <value>contraindicationsText</value>
+  </data>
+  <data name="&gt;&gt;contraindicationsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contraindicationsText.Parent" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;contraindicationsText.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="additionalDetailLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="additionalDetailLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 479</value>
+  </data>
+  <data name="additionalDetailLayout.RowCount" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="additionalDetailLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1106, 553</value>
+  </data>
+  <data name="additionalDetailLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;additionalDetailLayout.Name" xml:space="preserve">
+    <value>additionalDetailLayout</value>
+  </data>
+  <data name="&gt;&gt;additionalDetailLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;additionalDetailLayout.Parent" xml:space="preserve">
+    <value>detailFormMainLayout</value>
+  </data>
+  <data name="&gt;&gt;additionalDetailLayout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="additionalDetailLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="substancesText" Row="10" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="overodeText" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="compositionText" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="dosageText" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="interactionsText" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="warningsText" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="applicabilityText" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="sideeffectsText" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="indicationsText" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="additionalDetailLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="pillDocumentIndicationsLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentContraindicationsLabel" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentSideEffectLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentApplicabilityLabel" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentWarningsLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentInteractionsLabel" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentDosageLabel" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentCompositionLabel" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentOverdoseLabel" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentSubstancesLabel" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="contraindicationsText" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,6,25,Percent,4,75,Percent,14,Percent,4,75,Percent,14,Percent,4,75,Percent,14,Percent,4,75,Percent,14,Percent,4,75,Percent,14,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="pillDetailLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pillSuklText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillSuklText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillSuklText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillSuklText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 432</value>
+  </data>
+  <data name="pillSuklText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillSuklText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 41</value>
+  </data>
+  <data name="pillSuklText.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="pillSuklText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillSuklText.Name" xml:space="preserve">
+    <value>pillSuklText</value>
+  </data>
+  <data name="&gt;&gt;pillSuklText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillSuklText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillSuklText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pillSklLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillSklLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillSklLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillSklLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 432</value>
+  </data>
+  <data name="pillSklLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillSklLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 41</value>
+  </data>
+  <data name="pillSklLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="pillSklLabel.Text" xml:space="preserve">
+    <value>SÚKL code:</value>
+  </data>
+  <data name="pillSklLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillSklLabel.Name" xml:space="preserve">
+    <value>pillSklLabel</value>
+  </data>
+  <data name="&gt;&gt;pillSklLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillSklLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillSklLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pillMedicalSubstancesText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillMedicalSubstancesText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillMedicalSubstancesText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillMedicalSubstancesText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 393</value>
+  </data>
+  <data name="pillMedicalSubstancesText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillMedicalSubstancesText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 33</value>
+  </data>
+  <data name="pillMedicalSubstancesText.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="pillMedicalSubstancesText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillMedicalSubstancesText.Name" xml:space="preserve">
+    <value>pillMedicalSubstancesText</value>
+  </data>
+  <data name="&gt;&gt;pillMedicalSubstancesText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillMedicalSubstancesText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillMedicalSubstancesText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pillExpirationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillExpirationLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillExpirationLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillExpirationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 354</value>
+  </data>
+  <data name="pillExpirationLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillExpirationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillExpirationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="pillExpirationLabel.Text" xml:space="preserve">
+    <value>Expiration:</value>
+  </data>
+  <data name="pillExpirationLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillExpirationLabel.Name" xml:space="preserve">
+    <value>pillExpirationLabel</value>
+  </data>
+  <data name="&gt;&gt;pillExpirationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillExpirationLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillExpirationLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 315</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.Text" xml:space="preserve">
+    <value>Unlimited reg.:</value>
+  </data>
+  <data name="pillUnlimitedRegistartionLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillUnlimitedRegistartionLabel.Name" xml:space="preserve">
+    <value>pillUnlimitedRegistartionLabel</value>
+  </data>
+  <data name="&gt;&gt;pillUnlimitedRegistartionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillUnlimitedRegistartionLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillUnlimitedRegistartionLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 276</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.Text" xml:space="preserve">
+    <value>Holder country:</value>
+  </data>
+  <data name="pillRegistartionHolderCountraLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillRegistartionHolderCountraLabel.Name" xml:space="preserve">
+    <value>pillRegistartionHolderCountraLabel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistartionHolderCountraLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillRegistartionHolderCountraLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistartionHolderCountraLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 237</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.Text" xml:space="preserve">
+    <value>Reg. holder:</value>
+  </data>
+  <data name="pillRegistrationHolderLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderLabel.Name" xml:space="preserve">
+    <value>pillRegistrationHolderLabel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 198</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.Text" xml:space="preserve">
+    <value>Registration number:</value>
+  </data>
+  <data name="pillRegistrationNumberLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationNumberLabel.Name" xml:space="preserve">
+    <value>pillRegistrationNumberLabel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationNumberLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationNumberLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationNumberLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pillATCNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillATCNameLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillATCNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillATCNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 159</value>
+  </data>
+  <data name="pillATCNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillATCNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillATCNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="pillATCNameLabel.Text" xml:space="preserve">
+    <value>ATC Name:</value>
+  </data>
+  <data name="pillATCNameLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillATCNameLabel.Name" xml:space="preserve">
+    <value>pillATCNameLabel</value>
+  </data>
+  <data name="&gt;&gt;pillATCNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillATCNameLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillATCNameLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pillATCCodeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillATCCodeLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillATCCodeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillATCCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 120</value>
+  </data>
+  <data name="pillATCCodeLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillATCCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillATCCodeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="pillATCCodeLabel.Text" xml:space="preserve">
+    <value>ATC:</value>
+  </data>
+  <data name="pillATCCodeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillATCCodeLabel.Name" xml:space="preserve">
+    <value>pillATCCodeLabel</value>
+  </data>
+  <data name="&gt;&gt;pillATCCodeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillATCCodeLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillATCCodeLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pillDispensingLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDispensingLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDispensingLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillDispensingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 354</value>
+  </data>
+  <data name="pillDispensingLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDispensingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillDispensingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="pillDispensingLabel.Text" xml:space="preserve">
+    <value>Dispensing:</value>
+  </data>
+  <data name="pillDispensingLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDispensingLabel.Name" xml:space="preserve">
+    <value>pillDispensingLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDispensingLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDispensingLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillDispensingLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pillCoverLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillCoverLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillCoverLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillCoverLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 315</value>
+  </data>
+  <data name="pillCoverLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillCoverLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillCoverLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="pillCoverLabel.Text" xml:space="preserve">
+    <value>Cover:</value>
+  </data>
+  <data name="pillCoverLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillCoverLabel.Name" xml:space="preserve">
+    <value>pillCoverLabel</value>
+  </data>
+  <data name="&gt;&gt;pillCoverLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillCoverLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillCoverLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pillWayOfUseLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillWayOfUseLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillWayOfUseLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillWayOfUseLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 276</value>
+  </data>
+  <data name="pillWayOfUseLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillWayOfUseLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillWayOfUseLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pillWayOfUseLabel.Text" xml:space="preserve">
+    <value>Way of use:</value>
+  </data>
+  <data name="pillWayOfUseLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillWayOfUseLabel.Name" xml:space="preserve">
+    <value>pillWayOfUseLabel</value>
+  </data>
+  <data name="&gt;&gt;pillWayOfUseLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillWayOfUseLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillWayOfUseLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pillPackingLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillPackingLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillPackingLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillPackingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 237</value>
+  </data>
+  <data name="pillPackingLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillPackingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillPackingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pillPackingLabel.Text" xml:space="preserve">
+    <value>Package:</value>
+  </data>
+  <data name="pillPackingLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillPackingLabel.Name" xml:space="preserve">
+    <value>pillPackingLabel</value>
+  </data>
+  <data name="&gt;&gt;pillPackingLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillPackingLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillPackingLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pillFormLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillFormLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillFormLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 198</value>
+  </data>
+  <data name="pillFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillFormLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pillFormLabel.Text" xml:space="preserve">
+    <value>Medicine form:</value>
+  </data>
+  <data name="pillFormLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillFormLabel.Name" xml:space="preserve">
+    <value>pillFormLabel</value>
+  </data>
+  <data name="&gt;&gt;pillFormLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillFormLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillFormLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pillSupplementLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillSupplementLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillSupplementLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillSupplementLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 159</value>
+  </data>
+  <data name="pillSupplementLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillSupplementLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillSupplementLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pillSupplementLabel.Text" xml:space="preserve">
+    <value>Supplement:</value>
+  </data>
+  <data name="pillSupplementLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillSupplementLabel.Name" xml:space="preserve">
+    <value>pillSupplementLabel</value>
+  </data>
+  <data name="&gt;&gt;pillSupplementLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillSupplementLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillSupplementLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pillPowerLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillPowerLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillPowerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillPowerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 120</value>
+  </data>
+  <data name="pillPowerLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillPowerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillPowerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pillPowerLabel.Text" xml:space="preserve">
+    <value>Power:</value>
+  </data>
+  <data name="pillPowerLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillPowerLabel.Name" xml:space="preserve">
+    <value>pillPowerLabel</value>
+  </data>
+  <data name="&gt;&gt;pillPowerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillPowerLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillPowerLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pillNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillNameLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt, style=Bold</value>
+  </data>
+  <data name="pillNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="pillNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 72</value>
+  </data>
+  <data name="pillNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="pillNameLabel.Text" xml:space="preserve">
+    <value>Medicine name</value>
+  </data>
+  <data name="pillNameLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillNameLabel.Name" xml:space="preserve">
+    <value>pillNameLabel</value>
+  </data>
+  <data name="&gt;&gt;pillNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillNameLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillNameLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pillPowerText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillPowerText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillPowerText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillPowerText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 120</value>
+  </data>
+  <data name="pillPowerText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillPowerText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 33</value>
+  </data>
+  <data name="pillPowerText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="pillPowerText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillPowerText.Name" xml:space="preserve">
+    <value>pillPowerText</value>
+  </data>
+  <data name="&gt;&gt;pillPowerText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillPowerText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillPowerText.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="pillSupplementText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillSupplementText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillSupplementText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillSupplementText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 159</value>
+  </data>
+  <data name="pillSupplementText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillSupplementText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 33</value>
+  </data>
+  <data name="pillSupplementText.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="pillSupplementText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillSupplementText.Name" xml:space="preserve">
+    <value>pillSupplementText</value>
+  </data>
+  <data name="&gt;&gt;pillSupplementText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillSupplementText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillSupplementText.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="pillFormText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillFormText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillFormText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 198</value>
+  </data>
+  <data name="pillFormText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillFormText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 33</value>
+  </data>
+  <data name="pillFormText.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="pillFormText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillFormText.Name" xml:space="preserve">
+    <value>pillFormText</value>
+  </data>
+  <data name="&gt;&gt;pillFormText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillFormText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillFormText.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="pillPackingText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillPackingText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillPackingText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillPackingText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 237</value>
+  </data>
+  <data name="pillPackingText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillPackingText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 33</value>
+  </data>
+  <data name="pillPackingText.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="pillPackingText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillPackingText.Name" xml:space="preserve">
+    <value>pillPackingText</value>
+  </data>
+  <data name="&gt;&gt;pillPackingText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillPackingText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillPackingText.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="pillWayOfUseText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillWayOfUseText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillWayOfUseText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillWayOfUseText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 276</value>
+  </data>
+  <data name="pillWayOfUseText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillWayOfUseText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 33</value>
+  </data>
+  <data name="pillWayOfUseText.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="pillWayOfUseText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillWayOfUseText.Name" xml:space="preserve">
+    <value>pillWayOfUseText</value>
+  </data>
+  <data name="&gt;&gt;pillWayOfUseText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillWayOfUseText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillWayOfUseText.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="pillCoverText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillCoverText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillCoverText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillCoverText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 315</value>
+  </data>
+  <data name="pillCoverText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillCoverText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 33</value>
+  </data>
+  <data name="pillCoverText.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="pillCoverText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillCoverText.Name" xml:space="preserve">
+    <value>pillCoverText</value>
+  </data>
+  <data name="&gt;&gt;pillCoverText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillCoverText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillCoverText.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="pillDispensingText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDispensingText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDispensingText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillDispensingText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 354</value>
+  </data>
+  <data name="pillDispensingText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDispensingText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 33</value>
+  </data>
+  <data name="pillDispensingText.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="pillDispensingText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDispensingText.Name" xml:space="preserve">
+    <value>pillDispensingText</value>
+  </data>
+  <data name="&gt;&gt;pillDispensingText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDispensingText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillDispensingText.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="pillATCCodeText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillATCCodeText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillATCCodeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillATCCodeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 120</value>
+  </data>
+  <data name="pillATCCodeText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillATCCodeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 33</value>
+  </data>
+  <data name="pillATCCodeText.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="pillATCCodeText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillATCCodeText.Name" xml:space="preserve">
+    <value>pillATCCodeText</value>
+  </data>
+  <data name="&gt;&gt;pillATCCodeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillATCCodeText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillATCCodeText.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="pillAtcNameText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillAtcNameText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillAtcNameText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillAtcNameText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 159</value>
+  </data>
+  <data name="pillAtcNameText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillAtcNameText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 33</value>
+  </data>
+  <data name="pillAtcNameText.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="pillAtcNameText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillAtcNameText.Name" xml:space="preserve">
+    <value>pillAtcNameText</value>
+  </data>
+  <data name="&gt;&gt;pillAtcNameText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillAtcNameText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillAtcNameText.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="pillRegistrationNumberText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillRegistrationNumberText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillRegistrationNumberText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillRegistrationNumberText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 198</value>
+  </data>
+  <data name="pillRegistrationNumberText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillRegistrationNumberText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 33</value>
+  </data>
+  <data name="pillRegistrationNumberText.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="pillRegistrationNumberText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationNumberText.Name" xml:space="preserve">
+    <value>pillRegistrationNumberText</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationNumberText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationNumberText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationNumberText.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="pillRegistrationHolderText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillRegistrationHolderText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillRegistrationHolderText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillRegistrationHolderText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 237</value>
+  </data>
+  <data name="pillRegistrationHolderText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillRegistrationHolderText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 33</value>
+  </data>
+  <data name="pillRegistrationHolderText.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="pillRegistrationHolderText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderText.Name" xml:space="preserve">
+    <value>pillRegistrationHolderText</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderText.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="pillRegistrationHolderCountryText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillRegistrationHolderCountryText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillRegistrationHolderCountryText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillRegistrationHolderCountryText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 276</value>
+  </data>
+  <data name="pillRegistrationHolderCountryText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillRegistrationHolderCountryText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 33</value>
+  </data>
+  <data name="pillRegistrationHolderCountryText.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="pillRegistrationHolderCountryText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderCountryText.Name" xml:space="preserve">
+    <value>pillRegistrationHolderCountryText</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderCountryText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderCountryText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillRegistrationHolderCountryText.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 315</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 33</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="pillUnlimitedRegistrationText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillUnlimitedRegistrationText.Name" xml:space="preserve">
+    <value>pillUnlimitedRegistrationText</value>
+  </data>
+  <data name="&gt;&gt;pillUnlimitedRegistrationText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillUnlimitedRegistrationText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillUnlimitedRegistrationText.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="pillExpirationText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillExpirationText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillExpirationText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillExpirationText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 354</value>
+  </data>
+  <data name="pillExpirationText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillExpirationText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 33</value>
+  </data>
+  <data name="pillExpirationText.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="pillExpirationText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillExpirationText.Name" xml:space="preserve">
+    <value>pillExpirationText</value>
+  </data>
+  <data name="&gt;&gt;pillExpirationText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillExpirationText.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillExpirationText.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="pillDocumentsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillDocumentsLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDocumentsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillDocumentsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 393</value>
+  </data>
+  <data name="pillDocumentsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillDocumentsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillDocumentsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="pillDocumentsLabel.Text" xml:space="preserve">
+    <value>Documents:</value>
+  </data>
+  <data name="pillDocumentsLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentsLabel.Name" xml:space="preserve">
+    <value>pillDocumentsLabel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentsLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillDocumentsLabel.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 393</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 33</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.Text" xml:space="preserve">
+    <value>Substances:</value>
+  </data>
+  <data name="pillMedicalSubstancesLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillMedicalSubstancesLabel.Name" xml:space="preserve">
+    <value>pillMedicalSubstancesLabel</value>
+  </data>
+  <data name="&gt;&gt;pillMedicalSubstancesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillMedicalSubstancesLabel.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillMedicalSubstancesLabel.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="openPillDocumentButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="openPillDocumentButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="openPillDocumentButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="openPillDocumentButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="openPillDocumentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 400</value>
+  </data>
+  <data name="openPillDocumentButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 10, 3, 10</value>
+  </data>
+  <data name="openPillDocumentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="openPillDocumentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="openPillDocumentButton.Text" xml:space="preserve">
+    <value>SPC999999.pdf</value>
+  </data>
+  <data name="&gt;&gt;openPillDocumentButton.Name" xml:space="preserve">
+    <value>openPillDocumentButton</value>
+  </data>
+  <data name="&gt;&gt;openPillDocumentButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;openPillDocumentButton.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;openPillDocumentButton.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 42</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 72</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="pillAddToListButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="pillAddToListButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pillAddToListButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillAddToListButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 435</value>
+  </data>
+  <data name="pillAddToListButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 6, 20, 6</value>
+  </data>
+  <data name="pillAddToListButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 35</value>
+  </data>
+  <data name="pillAddToListButton.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="pillAddToListButton.Text" xml:space="preserve">
+    <value>Add to my list</value>
+  </data>
+  <data name="&gt;&gt;pillAddToListButton.Name" xml:space="preserve">
+    <value>pillAddToListButton</value>
+  </data>
+  <data name="&gt;&gt;pillAddToListButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pillAddToListButton.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillAddToListButton.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="pillsDetailWarningLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillsDetailWarningLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="pillsDetailWarningLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pillsDetailWarningLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 0</value>
+  </data>
+  <data name="pillsDetailWarningLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pillsDetailWarningLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 39</value>
+  </data>
+  <data name="pillsDetailWarningLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="pillsDetailWarningLabel.Text" xml:space="preserve">
+    <value>WARNING! All data and information are purely informative. Consult a specialist before use.</value>
+  </data>
+  <data name="pillsDetailWarningLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pillsDetailWarningLabel.Name" xml:space="preserve">
+    <value>pillsDetailWarningLabel</value>
+  </data>
+  <data name="&gt;&gt;pillsDetailWarningLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillsDetailWarningLabel.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pillsDetailWarningLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="goBackToSearchButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="goBackToSearchButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="goBackToSearchButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="goBackToSearchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 0</value>
+  </data>
+  <data name="goBackToSearchButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 6, 4, 6</value>
+  </data>
+  <data name="goBackToSearchButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="goBackToSearchButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="goBackToSearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 35</value>
+  </data>
+  <data name="goBackToSearchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="goBackToSearchButton.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="goBackToSearchButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;goBackToSearchButton.Name" xml:space="preserve">
+    <value>goBackToSearchButton</value>
+  </data>
+  <data name="&gt;&gt;goBackToSearchButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;goBackToSearchButton.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;goBackToSearchButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pillDetailsHelpButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="pillDetailsHelpButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="pillDetailsHelpButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pillDetailsHelpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 0</value>
+  </data>
+  <data name="pillDetailsHelpButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 20, 6</value>
+  </data>
+  <data name="pillDetailsHelpButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="pillDetailsHelpButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="pillDetailsHelpButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 35</value>
+  </data>
+  <data name="pillDetailsHelpButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pillDetailsHelpButton.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;pillDetailsHelpButton.Name" xml:space="preserve">
+    <value>pillDetailsHelpButton</value>
+  </data>
+  <data name="&gt;&gt;pillDetailsHelpButton.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pillDetailsHelpButton.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pillDetailsHelpButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="panel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 25, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 39</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="pillDetailLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pillDetailLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pillDetailLayoutPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pillDetailLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="pillDetailLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 476</value>
+  </data>
+  <data name="pillDetailLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pillDetailLayoutPanel.Name" xml:space="preserve">
+    <value>pillDetailLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;pillDetailLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pillDetailLayoutPanel.Parent" xml:space="preserve">
+    <value>detailFormMainLayout</value>
+  </data>
+  <data name="&gt;&gt;pillDetailLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pillDetailLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pillSuklText" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillSklLabel" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillMedicalSubstancesText" Row="10" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillExpirationLabel" Row="9" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pillUnlimitedRegistartionLabel" Row="8" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pillRegistartionHolderCountraLabel" Row="7" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pillRegistrationHolderLabel" Row="6" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pillRegistrationNumberLabel" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pillATCNameLabel" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pillATCCodeLabel" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pillDispensingLabel" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillCoverLabel" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillWayOfUseLabel" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillPackingLabel" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillFormLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillSupplementLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillPowerLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pillNameLabel" Row="1" RowSpan="2" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="pillPowerText" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillSupplementText" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillFormText" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillPackingText" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillWayOfUseText" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillCoverText" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillDispensingText" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pillATCCodeText" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pillAtcNameText" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pillRegistrationNumberText" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pillRegistrationHolderText" Row="6" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pillRegistrationHolderCountryText" Row="7" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pillUnlimitedRegistrationText" Row="8" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pillExpirationText" Row="9" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pillDocumentsLabel" Row="10" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pillMedicalSubstancesLabel" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="openPillDocumentButton" Row="10" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="panel1" Row="1" RowSpan="2" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pillAddToListButton" Row="11" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="panel2" Row="0" RowSpan="1" Column="0" ColumnSpan="4" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,30,Percent,20,Percent,30" /&gt;&lt;Rows Styles="Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333,Percent,8,333333" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="detailFormMainLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="detailFormMainLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 64</value>
+  </data>
+  <data name="detailFormMainLayout.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="detailFormMainLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1112, 1035</value>
+  </data>
+  <data name="detailFormMainLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;detailFormMainLayout.Name" xml:space="preserve">
+    <value>detailFormMainLayout</value>
+  </data>
+  <data name="&gt;&gt;detailFormMainLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;detailFormMainLayout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;detailFormMainLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="detailFormMainLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="simmilarPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="additionalDetailLayout" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="pillDetailLayoutPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,415" /&gt;&lt;Rows Styles="Percent,46,Percent,54" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>14, 29</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 1102</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PillsDetailForm</value>
+  </data>
+  <data name="&gt;&gt;pillDetailTooltip.Name" xml:space="preserve">
+    <value>pillDetailTooltip</value>
+  </data>
+  <data name="&gt;&gt;pillDetailTooltip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PillsDetailForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

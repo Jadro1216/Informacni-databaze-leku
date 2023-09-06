@@ -1,0 +1,13 @@
+REG;NAZEV
+B;přípravek po provedené změně může být uváděn na trh po dobu 6 měsíců a používán do uplynutí doby použitelnosti, nejdéle po dobu platnosti registrace
+C;zrušená registrace, přípravek bude stažen z oběhu do doby uvedené v rozhodnutí o zrušení registrace
+F;specifický léčebný program povolený MZČR na základě doporučení SÚKL
+I;léčivý přípravek povolený na základě mimořádného opatření MZ
+K;pozastavení rozhodnutí o centralizované registraci
+M;pozastavení registrace nebo používání léčivého přípravku  a jeho uvádění do oběhu
+N;registrace zrušena rozhodnutím nebo uplynutím doby použitelnosti po provedené změně
+P;potravina pro zvláštní lékařské účely
+R;registrovaný léčivý přípravek
+Y;registrace, která pozbyla platnost, přípravek bude stažen z oběhu do doby uvedené v rozhodnutí
+Z;registrace, která pozbyla platnost - nebyla prodloužena anebo bylo prodloužení zamítnuto
+ZS;registrace zrušena na základě SUNSET
